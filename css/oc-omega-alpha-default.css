@@ -12,9 +12,8 @@
 
 .zone-menu
 {
-	background:  #99d7db;
-	margin:10px;		
-}
+    border: 15px solid white;
+} 
 #region-search:after {
     border-right: 15px solid white;
     bottom: -70px;
@@ -33,10 +32,7 @@ font-weight:normal;
 }
 .zone-content
 {
-
 	background:  white;
-
-	
 }
 				.ding-event-weekday{
     				color: #FFFFFF;
@@ -132,7 +128,7 @@ IMG#logo {
 #branding
 {
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 
@@ -149,33 +145,67 @@ IMG#logo
 
 /*Navigation*/
 /*Main menu*/
-UL.main-menu LI
-{
-	float: left;
-	list-style-image: none;
-	list-style-type: none;
-	padding: 10px 20px;
 
-}
 UL.main-menu
 {
-	background: #69c9cf;
+	/*background: blue;*/  /* Baggrund til menuen, men ikke branding. */
 	overflow: hidden;
-	padding-left: 10px;
-	padding-right: 10px;
-	
+	padding-left: 0px;
+	padding-right: 0px;
+  margin-bottom: 0px;
 }
-UL.main-menu LI A
-{
-	color: white;
-	font-size: 16px;
+ul.main-menu li {
+	float: right;
+  text-align: center;
+  width: 33px;              /* Bredden af li elementerne i main-menu. */
+	list-style-image: none;
+	list-style-type: none;
+	padding: 25px 35px 10px;
+  /*background-color: #99d7db;*/
+  margin-left: 20px;
+  height: 70px;
+  text-align: center;
+  background-size: 30px;    /* Størrelse af billeder i main-menu. */
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
 }
-UL.main-menu LI A:hover
-{
-	color: #1285DA;
-	text-decoration: none;
+ul.main-menu li:hover {
+  background-color: #737577;
+}
+li.menu-468 { /* Forsiden */
+  background-image: url('../images/menu/forsiden.png');
+}
+li.menu-395 { /* Topti */
+  background-image: url('../images/menu/topti.png');
+}
+li.menu-394 { /* Events */ 
+  background-image: url('../images/menu/arrangementer.png');
+  background-size: 20px!important;    /* Har anden størrelse da billedet ikke passer sammen med de andre billeder. */ 
+}
+li.menu-393 { /* Libraries */
+  background-image: url('../images/menu/biblioteker.png');
+}
+li.menu-481 { /* Åbningstider */
+  background-image: url('../images/menu/openhours.png');
+}
+li.menu-493 { /* Åbningstider */
+  background-image: url('../images/menu/netbib.png');
+}
+ul.main-menu li A {
+  width: 100px;
+  display: block;
+  margin: -25px 0px 0px -33px;
+  padding: 25px 0px 65px 0px;
+  color: white;
+	font-size: 12px;
+  /*background-color: yellowgreen;
+  opacity: 0.4;*/
 }
 
+ul.main-menu li A:hover {
+  color: white;
+	text-decoration: none;
+}
 /*Secondary menu*/
 UL.secondary-menu
 {
