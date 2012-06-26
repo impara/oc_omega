@@ -3,7 +3,8 @@
 /*HTML elements*/
 .block-language{
 	position:absolute;
-	left:200px;
+	left:360px;
+  margin-top: -10px;
 	top:20px;
 }
 .form-item-search-block-form .form-text{
@@ -12,19 +13,12 @@
 
 .zone-menu
 {
-    border: 15px solid white;
+    border: 25px solid white;
+    /*border-bottom: 25px solid white;*/
 } 
-#region-search:after {
-    border-right: 15px solid white;
-    bottom: -70px;
-    content: "";
-    display: block;
-    position: absolute;
-    right: -11px;
-    top: 0;
-}
-  
+
 #region-search .block-title{
+font-family: Arial;
 font-size: 28px;
 margin-top:10px;
 color: black;
@@ -165,9 +159,9 @@ ul.main-menu li {
   margin-left: 20px;
   height: 70px;
   text-align: center;
-  background-size: 30px;    /* Størrelse af billeder i main-menu. */
+  background-size: 35px;    /* Størrelse af billeder i main-menu. */
   background-repeat: no-repeat;
-  background-position: 50% 80%;
+  background-position: 50% 75%;
 }
 ul.main-menu li:hover {
   background-color: #737577;
@@ -180,7 +174,7 @@ li.menu-395 { /* Topti */
 }
 li.menu-394 { /* Events */ 
   background-image: url('../images/menu/arrangementer.png');
-  background-size: 20px!important;    /* Har anden størrelse da billedet ikke passer sammen med de andre billeder. */ 
+  background-size: 25px!important;    /* Har anden størrelse da billedet ikke passer sammen med de andre billeder. */ 
 }
 li.menu-393 { /* Libraries */
   background-image: url('../images/menu/biblioteker.png');
@@ -192,19 +186,47 @@ li.menu-493 { /* Åbningstider */
   background-image: url('../images/menu/netbib.png');
 }
 ul.main-menu li A {
-  width: 100px;
+  width: 103px;
   display: block;
-  margin: -25px 0px 0px -33px;
+  margin: -25px 0px 0px -35px;
   padding: 25px 0px 65px 0px;
   color: white;
 	font-size: 12px;
   /*background-color: yellowgreen;
   opacity: 0.4;*/
 }
-
 ul.main-menu li A:hover {
   color: white;
 	text-decoration: none;
+}
+ul.main-menu li A:active {
+  background-color: #99d7db;
+  opacity: 0.8;
+}
+#region-user-first {
+  padding-left: 10px;
+    border-left: 15px solid white;
+    margin-left:-10px;
+    margin-right:0px;
+min-height: 170px;
+}
+#region-user-first li {
+  list-style: none;
+}
+#region-user-first li.leaf A {
+  display: block;
+  width: 150px;
+  text-indent: 10px;
+  background-color: white;
+  padding: 2px;
+  margin: 1px;
+  color: black;
+  border: 1px solid #0077a2;
+}
+#region-user-first li.leaf A:hover {
+  text-decoration: none;
+  background-color: grey;
+  border: 1px solid white;
 }
 /*Secondary menu*/
 UL.secondary-menu
@@ -332,7 +354,7 @@ H1.title
 {
 	float: left;
 	margin-right: 10px;
-	background: #EEEEEE url(../images/tags.png) no-repeat 5px center;
+	background: #EEEEEE url(../images/tags.png) no-repeat 5px;
 	padding: 5px 10px 5px 20px;
 	font-size: 11px;
 	border: 1px solid #CCC;

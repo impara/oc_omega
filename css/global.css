@@ -90,10 +90,8 @@ ul.ui-autocomplete {
   background-position: 400px 5px!important;
 }
 #region-user-first {
-background-color: #99d7db;
-
+  background-color: #99d7db;
 }
-
 
 #user-login-form .form-text {
   background-color: #FFFFFF;
@@ -104,16 +102,6 @@ background-color: #99d7db;
   position: relative;
   text-shadow: 0 1px 0 #FFFFFF;
 }
-#user-login-form .form-text {
-  background-color: #FFFFFF;
-  border: 1px solid #218fb2;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset;
-  display: inline-block;
-  height: 30px;
-  position: relative;
-  text-shadow: 0 1px 0 #FFFFFF;
-}
-
 
 #block-ding-user-frontend-ding-user-loan-number{
   margin-top: 20px;
@@ -130,6 +118,20 @@ background-color: #99d7db;
   margin-bottom: 10px;
 
   
+}
+
+.ctools-collapsible-container .ctools-toggle {
+    background-image: url("../images/new_arrow.png");
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 28px;
+    width: 21px;
+}
+.ctools-collapsible-container .ctools-toggle-collapsed {
+    background-image: url("../images/new_arrow_collapsed.png");
+    background-position: 6px 1px;
 }
 #breadcrumb {
 
