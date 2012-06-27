@@ -199,9 +199,9 @@ ul.main-menu li A:hover {
   color: white;
 	text-decoration: none;
 }
-ul.main-menu li A:active {
-  background-color: #99d7db;
-  opacity: 0.8;
+
+ul.main-menu li.active {
+  background-color: #737577;
 }
 #region-user-first {
   padding-left: 10px;
