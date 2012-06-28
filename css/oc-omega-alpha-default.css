@@ -2,9 +2,10 @@
 
 /*HTML elements*/
 .block-language{
-	position:absolute;
-	left:360px;
-  margin-top: -10px;
+	position:relative;
+        float: right;
+        margin-right: 10px;
+	margin-top: -10px;
 	top:20px;
 }
 .form-item-search-block-form .form-text{
@@ -13,7 +14,10 @@
 
 .zone-menu
 {
-    border: 25px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 15px solid white;
+    border-bottom: 25px solid white;
     /*border-bottom: 25px solid white;*/
 } 
 
@@ -80,6 +84,7 @@ h2.site-name {
 .logo-img {
     float: left;
     margin-right: 20px;
+    margin-top: 5px;
 }
 IMG#logo {
     float: left;
