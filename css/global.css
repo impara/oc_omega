@@ -47,7 +47,7 @@ IMG#logo {
 #region-menu {
     margin: 10px 0px 0px 0px;
     padding: 0px 0px 5px 0px;
-}	
+}    
 UL.main-menu {
     float: left;
     overflow: hidden;
@@ -152,17 +152,6 @@ ul.ui-autocomplete {
 }
 #region-user-first ul {
     padding-top: 0px;
-}
-#region-user-first li.leaf A {
-    display: block;
-    width: 100px;
-    text-indent: 5px;
-    text-decoration: none;
-    background-color: white;
-    padding: 2px;
-    margin: 0px;
-    color: black;
-    border: 1px solid #0077a2;
 }
 #region-user-first li.leaf A:hover {
     text-decoration: none;
