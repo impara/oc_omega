@@ -31,7 +31,7 @@ function oc_omega_form_alter(&$form, &$form_state, $form_id) {
       $form['actions']['preview']['#suffix'] = '</div>';
       $form['subject']['#type'] = 'hidden';
       break;
-	}
+	case 'user_login_form': $form['user_menu']['edit-name']['#attributes']['placeholder'] = t('cpr'); break; }
 
 }
 

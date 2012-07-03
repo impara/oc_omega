@@ -2,84 +2,79 @@
 
 /*HTML elements*/
 .block-language{
-	position:relative;
-        float: right;
-        margin-right: 10px;
-	margin-top: -10px;
-	top:20px;
+    position:relative;
+    float: right;
+    margin-right: 10px;
 }
 .form-item-search-block-form .form-text{
-	width:440px;
+    width:440px;
 }
 
 .zone-menu
 {
-    border-left: 0px;
-    border-right: 0px;
     border-top: 15px solid white;
-    border-bottom: 25px solid white;
-    /*border-bottom: 25px solid white;*/
+    border-bottom: 15px solid white;
 } 
 
 #region-search .block-title{
-font-family: Arial;
-font-size: 28px;
-margin-top:10px;
-color: black;
-font-weight:normal;
+    font-family: Arial;
+    font-size: 28px;
+    margin-top:10px;
+    color: black;
+    font-weight:normal;
 }
 .zone-content
 {
-	background:  white;
+    background:  white;
 }
-				.ding-event-weekday{
-    				color: #FFFFFF;
-    				font-size: 10px;
-    				line-height: 0px;
-					height:0px;
-					}
-				.ding-event-day{
-    				color: #000000;
-    				font-size: 18px;
-    				line-height: 20px;
-					}
-				.ding-event-month{
-   					font-size: 9px;
-   					line-height: 0px;
-   					text-transform: uppercase;
-					}
+.ding-event-weekday{
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 0px;
+    height:0px;
+}
+.ding-event-day{
+    color: #000000;
+    font-size: 18px;
+    line-height: 20px;
+}
+.ding-event-month{
+    font-size: 9px;
+    line-height: 0px;
+    text-transform: uppercase;
+}
 #breadcrumb{
-	padding-left:10px;
-	
+    padding-left:10px;
+
 }
 P
 {
-	margin-top: 10px !important;
-	margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 A:link, A:visited, A
 {
-	color: #000;
-	text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
 
 A:hover
 {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 /*Header*/
 #site-name
 {
-	font-family: Arial;
-	font-weight: bold;
-	letter-spacing: -1px;
-	line-height: normal;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: normal;
 }
 h1.site-name,
 h2.site-name {
-  font-size: 20px;
+    font-size: 20px;
 }
 .logo-img {
     float: left;
@@ -94,193 +89,161 @@ IMG#logo {
 }
 #slogan
 {
-	font-family: Arial;
-	font-size: 14px;
-	color: #FFF;
+    font-family: Arial;
+    font-size: 14px;
+    color: #FFF;
 }
 #search-region
 {
-	top: 10px;
+    top: 10px;
 }
 #search-region INPUT
 {
-	width: 200px;
-	font-family: Arial;
-	padding: 3px;
-	font-size: 14px;
-	color: #666;
+    width: 200px;
+    font-family: Arial;
+    padding: 3px;
+    font-size: 14px;
+    color: #666;
 }
-#site-name A
-{
-	color: #FFF !important;
-}
+
 #site-menu
 {
-	text-align: left;
-	margin-top: 10px;
-	margin-left: 0;
-	padding-right: 0;
-	margin-right: 0;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 /*Branding*/
 #branding
 {
-	margin-top: 20px;
-	margin-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
-
 
 IMG#logo
 {
-	margin-right: 15px;
-	margin-bottom: 5px;
-	float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    float: left;
+    width: 120px
 }
 #site-header
 {
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 /*Navigation*/
 /*Main menu*/
+#region-menu {
+    margin: -5px 0px -5px 0px;
+    padding: 0px;
+}
 
-UL.main-menu
-{
-	/*background: blue;*/  /* Baggrund til menuen, men ikke branding. */
-	overflow: hidden;
-	padding-left: 0px;
-	padding-right: 0px;
-  margin-bottom: 0px;
+UL.main-menu {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
 }
 ul.main-menu li {
-	float: right;
-  text-align: center;
-  width: 33px;              /* Bredden af li elementerne i main-menu. */
-	list-style-image: none;
-	list-style-type: none;
-	padding: 25px 35px 10px;
-  /*background-color: #99d7db;*/
-  margin-left: 20px;
-  height: 70px;
-  text-align: center;
-  background-size: 35px;    /* Størrelse af billeder i main-menu. */
-  background-repeat: no-repeat;
-  background-position: 50% 75%;
-}
-ul.main-menu li:hover {
-  background-color: #737577;
-}
-li.menu-468 { /* Forsiden */
-  background-image: url('../images/menu/forsiden.png');
-}
-li.menu-395 { /* Topti */
-  background-image: url('../images/menu/topti.png');
-}
-li.menu-394 { /* Events */ 
-  background-image: url('../images/menu/arrangementer.png');
-  background-size: 25px!important;    /* Har anden størrelse da billedet ikke passer sammen med de andre billeder. */ 
-}
-li.menu-393 { /* Libraries */
-  background-image: url('../images/menu/biblioteker.png');
-}
-li.menu-481 { /* Åbningstider */
-  background-image: url('../images/menu/openhours.png');
-}
-li.menu-493 { /* Åbningstider */
-  background-image: url('../images/menu/netbib.png');
-}
-ul.main-menu li A {
-  width: 103px;
-  display: block;
-  margin: -25px 0px 0px -35px;
-  padding: 25px 0px 65px 0px;
-  color: white;
-	font-size: 12px;
-  /*background-color: yellowgreen;
-  opacity: 0.4;*/
-}
-ul.main-menu li A:hover {
-  color: white;
-	text-decoration: none;
+    float: left;
+    width: 90px;              /* Bredden af li elementerne i main-menu. */
+    height: 105px;
+    padding: 0px;
+    margin: 0px 10px 0px;
+    background-size: 35px;    /* Størrelse af billeder i main-menu. */
+    background-position: 50% 75%;
 }
 
-ul.main-menu li.active {
-  background-color: #737577;
+ul.main-menu li A {
+    width: 90px;
+    height: 80px;
+    padding: 25px 0px 0px;
+    text-align: center;
+    text-indent: 0px;
+}
+
+#user-login-form {
+    width: 250px;
+    padding-left: 10px;
 }
 #region-user-first {
-  padding-left: 10px;
+    padding-left: 10px;
     border-left: 15px solid white;
     margin-left:-10px;
     margin-right:0px;
-min-height: 170px;
+    min-height: 170px;
 }
 #region-user-first li {
-  list-style: none;
+    list-style: none;
+}
+#region-user-first ul {
+    padding-top: 10px;
 }
 #region-user-first li.leaf A {
-  display: block;
-  width: 150px;
-  text-indent: 10px;
-  background-color: white;
-  padding: 2px;
-  margin: 1px;
-  color: black;
-  border: 1px solid #0077a2;
+    display: block;
+    width: 150px;
+    text-indent: 10px;
+    background-color: white;
+    padding: 2px;
+    margin: 1px;
+    color: black;
+    border: 1px solid #0077a2;
 }
 #region-user-first li.leaf A:hover {
-  text-decoration: none;
-  background-color: grey;
-  border: 1px solid white;
+    text-decoration: none;
+    background-color: grey;
+    border: 1px solid white;
 }
 /*Secondary menu*/
 UL.secondary-menu
 {
-	padding: 10px;
-	overflow: hidden;
-	font-size: 11px;
-	float: right;
-	margin-top: 10px;
-	margin-bottom: 0;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 11px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 UL.secondary-menu LI
 {
-	float: left;
-	list-style-type: none;
-	list-style-image: none;
-	margin-left: 10px;
+    float: left;
+    list-style-type: none;
+    list-style-image: none;
+    margin-left: 10px;
 }
 UL.secondary-menu LI A
 {
-	background: #B6EEFF;
-	padding: 6px 10px;
-	color: #1285DA;
+    background: #B6EEFF;
+    padding: 6px 10px;
+    color: #1285DA;
 
 }
 UL.secondary-menu LI A:hover
 {
-	background: #1285DA;
-	color: #B6EEFF;
-	text-decoration: none;
+    background: #1285DA;
+    color: #B6EEFF;
+    text-decoration: none;
 }
 
 #main-content-container
 {
-	background: #FFF;
-	padding-top: 20px;
+    background: #FFF;
+    padding-top: 20px;
 }
 
 
 /*Breadcrumb*/
 #internal-nav
 {
-	background: #FFF;
+    background: #FFF;
 }
 .breadcrumb
 {
-	font-size: 12px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 ul {
@@ -290,117 +253,117 @@ ul {
 /*Headings*/
 H1, H2, H3, H4, H5, H6
 {
-	font-family: Arial;
+    font-family: Arial;
 }
 
 H1.title
 {
-	font-family: Arial;
-	font-size: 30px;
+    font-family: Arial;
+    font-size: 30px;
 }
 /*Preface*/
 #preface-wrapper H2
 {
-	font-size: 14px;
-	background: #ABDEFD;
-	color: #FFF;
-	text-transform: uppercase;
-	padding: 2px 10px;
+    font-size: 14px;
+    background: #ABDEFD;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 2px 10px;
 
 }
 #preface-wrapper
 {
-	background: #60C0FA;
-	margin-bottom: 15px;
-	color: #FFF;
-	padding-top: 15px;
-	padding-bottom: 10px;
+    background: #60C0FA;
+    margin-bottom: 15px;
+    color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 10px;
 
 }
 /*Main content*/
 #main-content-container
 {
-	border-top: 10px solid #D8F0FE;
+    border-top: 10px solid #D8F0FE;
 }
 /*Postscript*/
 #postscript-wrapper
 {
-	color: #FFF;
-	background: #5BF;
-	padding-bottom: 10px;
-	padding-top: 15px;
+    color: #FFF;
+    background: #5BF;
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 #postscript-wrapper H2
 {
-	background: #29F;
-	font-size: 14px;
-	text-transform: uppercase;
-	padding: 2px 10px;
+    background: #29F;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 2px 10px;
 
 }
 /*Node Teasers*/
 .block H2
 {
-	font-size: 16px;
+    font-size: 16px;
 }
 .node
 {
-	border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
 }
 /*Node basic elements*/
 .submitted
 {
-	color: #666;
-	font-size: 11px;
-	margin-bottom: 5px;
+    color: #666;
+    font-size: 11px;
+    margin-bottom: 5px;
 }
 /*Tags*/
 .field-name-field-tags DIV.field-item
 {
-	float: left;
-	margin-right: 10px;
-	background: #EEEEEE url(../images/tags.png) no-repeat 5px;
-	padding: 5px 10px 5px 20px;
-	font-size: 11px;
-	border: 1px solid #CCC;
-	margin-bottom: 10px;
-	margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    background: #EEEEEE url(../images/tags.png) no-repeat 5px;
+    padding: 5px 10px 5px 20px;
+    font-size: 11px;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .field-name-field-tags DIV.field-item A
 {
-	color: #000;
+    color: #000;
 }
 /*Footer*/
 #footer-wrapper
 {
-	background: #DDDDDD url(../images/bg-footer.jpg) repeat-x;
-	border-top: 10px solid #E6E6E6;
-	padding-top: 20px;
-	overflow: hidden;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #CCC;
+    background: #DDDDDD url(../images/bg-footer.jpg) repeat-x;
+    border-top: 10px solid #E6E6E6;
+    padding-top: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CCC;
 }
 
 #footer-wrapper H2
 {
-	font-size: 14px;
-	background: #ACDFFE;
-	text-transform: uppercase;
-	padding-left: 10px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	color: #FFF;
+    font-size: 14px;
+    background: #ACDFFE;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #FFF;
 }
 .credits, .credits A
 {
-	font-size: 11px;
-	color: #D8F0FE;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	text-align: right;
+    font-size: 11px;
+    color: #D8F0FE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
 }
 .credits A:hover
 {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
