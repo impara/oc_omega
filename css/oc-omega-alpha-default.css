@@ -181,16 +181,6 @@ ul.main-menu li A {
 #region-user-first ul {
     padding-top: 10px;
 }
-#region-user-first li.leaf A {
-    display: block;
-    width: 150px;
-    text-indent: 10px;
-    background-color: white;
-    padding: 2px;
-    margin: 1px;
-    color: black;
-    border: 1px solid #0077a2;
-}
 #region-user-first li.leaf A:hover {
     text-decoration: none;
     background-color: grey;
