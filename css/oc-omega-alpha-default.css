@@ -155,7 +155,7 @@ ul.main-menu li A {
     overflow: hidden;
     width: 80%;
 }
-input.form-submit {
+#zone-user input.form-submit {
     border-radius: 0px;
     width: 100%;
     background: none;
@@ -164,7 +164,7 @@ input.form-submit {
     border-color: #7bb354;
     text-shadow: none;
 }
-input.form-submit:hover {
+#zone-user input.form-submit:hover {
     background-color: #606163;
     border-width: 1px 2px 2px;
 }
