@@ -3,8 +3,8 @@
 /*HTML elements*/
 
 .zone-menu {
-    border-top: 15px solid white;
-    border-bottom: 15px solid white;
+    margin-top: 15px;
+    margin-bottom: 15px;
 } 
 .zone-content {
     background:  white;
@@ -132,7 +132,6 @@ ul.main-menu li A {
     color: #666;
 }
 #region-search {
-    width: 60%;
 }
 #region-search .block-title {
     visibility: hidden;
@@ -156,10 +155,11 @@ ul.main-menu li A {
     width: 30%;
     margin-top: -36px;
 }
-#edit-submit--2 {
+#search-block-form input.form-submit {
     padding: 7px 0px 7px;
+    margin-top: -62px;
 }
-#zone-user input.form-submit {
+#zone-user .form-submit {
     border-radius: 0px;
     width: 100%;
     background: none;
@@ -168,9 +168,9 @@ ul.main-menu li A {
     border-color: #7bb354;
     text-shadow: none;
 }
-#zone-user input.form-submit:hover {
+#zone-user .form-submit:hover {
     background-color: #606163;
-    border-width: 1px 2px 2px;
+    border-width: 1px 2px 1px;
 }
 
 /*User First*/
@@ -186,7 +186,6 @@ ul.main-menu li A {
     margin-left:-10px;
     margin-right:0px;
     min-height: 170px;
-    width: 35%;
 }
 #region-user-first li {
     list-style: none;
@@ -216,9 +215,11 @@ ul.main-menu li A {
     width: 69%;
     text-indent: 5px;
 }
+#user-login-form .form-submit {
+    margin-top: -54px;  
+}
 #edit-actions {
     float: right;
-    margin-top: -29px;
     width: 30%;
 }
 #edit-account {
