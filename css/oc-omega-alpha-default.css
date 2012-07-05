@@ -179,13 +179,13 @@ ul.main-menu li A {
 }
 #region-user-first {
   padding-left: 10px;
-  border-left: 15px solid #aaa;
+  border-left: 15px solid #ebebeb;
   margin-left:-10px;
   margin-right:0px;
   min-height: 170px;
   width: 35%;
-}  
- 
+}
+
 #region-user-first li {
   list-style: none;
 }

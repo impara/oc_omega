@@ -342,16 +342,16 @@ H1.title {
 #zone-footer {
     background-color: #e7e8e9;
     margin-bottom: 5px;
-      -moz-box-shadow: 0 0 20px #aaa;
-  -o-box-shadow: 0 0 20px #aaa;
-  -khtml-box-shadow: 0 0 20px #aaa;
-  -webkit-box-shadow: 0 0 20px #aaa;
-  box-shadow: 0 0 20px #aaa;
-  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -khtml-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 0 0 10px #aaa;
+  -o-box-shadow: 0 0 10px #aaa;
+  -khtml-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #zone-footer A:link, #zone-footer A:visited, #zone-footer ul li.leaf { 
     color: #939496!important;
