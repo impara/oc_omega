@@ -60,22 +60,37 @@ ul.main-menu li {
 ul.main-menu li:hover {
     background-color: #737577;
 }
-li.menu-436 { 
+li.home { 
     background-image: url('../images/menu/forsiden.png');
 }
-li.menu-536 { 
+li.forsiden { 
+    background-image: url('../images/menu/forsiden.png');
+}
+li.top10 { 
     background-image: url('../images/menu/topti.png');
 }
-li.menu-394 {  
+li.events {  
     background-image: url('../images/menu/arrangementer.png');
 }
-li.menu-393 { 
+li.arrangementer {  
+    background-image: url('../images/menu/arrangementer.png');
+}
+li.libraries { 
     background-image: url('../images/menu/biblioteker.png');
 }
-li.menu-537 { 
+li.biblioteker { 
+    background-image: url('../images/menu/biblioteker.png');
+}
+li.openhours { 
     background-image: url('../images/menu/openhours.png');
 }
-li.menu-438 { 
+li.åbningstider { 
+    background-image: url('../images/menu/openhours.png');
+}
+li.netlibrary { 
+    background-image: url('../images/menu/netbib.png');
+}
+li.netbiblioteket { 
     background-image: url('../images/menu/netbib.png');
 }
 ul.main-menu li A {
