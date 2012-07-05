@@ -179,7 +179,7 @@ ul.main-menu li A {
 }
 #region-user-first {
   padding-left: 10px;
-  border-left: 15px solid white;
+  border-left: 15px solid #EBEBEB;
   margin-left:-10px;
   margin-right:0px;
   min-height: 170px;
