@@ -129,7 +129,7 @@ ul.main-menu li A {
   color: #666;
 }
 #region-search {
-  width: 60%;
+
 }
 #region-search .block-title {
   visibility: hidden;
@@ -179,11 +179,10 @@ ul.main-menu li A {
 }
 #region-user-first {
   padding-left: 10px;
-  border-left: 15px solid #EBEBEB;
+  border-left: 15px solid #aaa;
   margin-left:-10px;
   margin-right:0px;
   min-height: 170px;
-  width: 35%;
 }
 
 #region-user-first li {
