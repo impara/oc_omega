@@ -1,20 +1,11 @@
 /*$Id: libra-style.css,v 1.1 2011/01/13 15:46:30 marianojofre Exp $*/
 
 /*HTML elements*/
-.form-item-search-block-form .form-text {
-    width: 60%/*440px*/;
-}
+
 .zone-menu {
     border-top: 15px solid white;
     border-bottom: 15px solid white;
 } 
-#region-search .block-title {
-    font-family: Arial;
-    font-size: 28px;
-    margin-top:10px;
-    color: black;
-    font-weight:normal;
-}
 .zone-content {
     background:  white;
 }
@@ -127,6 +118,9 @@ ul.main-menu li A {
 }
 
 /*Search*/
+.form-item-search-block-form .form-text {
+    width: 60%;
+}
 #search-region {
     top: 10px;
 }
@@ -140,22 +134,32 @@ ul.main-menu li A {
 #region-search {
     width: 60%;
 }
+#region-search .block-title {
+    visibility: hidden;
+}
 #region-search h2 {
     padding: 25px 30px 0px;
     font-size: 45px;
     font-weight: normal;
     color: black;
 }
-
 #search-block-form {
     padding-left: 30px;
     width: 90%;
 }
-.form-item-search-block-form {
+#edit-search-block-form--2 {
+    width: 69%;
     overflow: hidden;
-    width: 80%;
 }
-input.form-submit {
+#edit-actions--2 {
+    float: right;
+    width: 30%;
+    margin-top: -36px;
+}
+#edit-submit--2 {
+    padding: 7px 0px 7px;
+}
+#zone-user input.form-submit {
     border-radius: 0px;
     width: 100%;
     background: none;
@@ -164,12 +168,10 @@ input.form-submit {
     border-color: #7bb354;
     text-shadow: none;
 }
-input.form-submit:hover {
+#zone-user input.form-submit:hover {
     background-color: #606163;
     border-width: 1px 2px 2px;
 }
-
-
 
 /*User First*/
 .block-language{
