@@ -17,19 +17,28 @@ body{
 }
 #zone-menu {
     background-color: #69c9cf;
-  -moz-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px -10px 10px -8px #888;
-  -o-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px -10px 10px -8px #888;
-  -khtml-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px -10px 10px -8px #888;
-  -webkit-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px -10px 10px -8px #888;
-  box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px -10px 10px -8px #888;
-  
+   -moz-box-shadow: 0 0 10px #aaa;
+  -o-box-shadow: 0 0 10px #aaa;
+  -khtml-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #zone-user {
-  -moz-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
-  -o-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
-  -khtml-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
-  -webkit-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
-  box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
+   -moz-box-shadow: 0 0 10px #aaa;
+  -o-box-shadow: 0 0 10px #aaa;
+  -khtml-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #region-branding {
 
@@ -207,11 +216,16 @@ ul.ui-autocomplete {
     background-color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
-  -moz-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
-  -o-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
-  -khtml-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
-  -webkit-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
-  box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888;
+   -moz-box-shadow: 0 0 5px #aaa;
+  -o-box-shadow: 0 0 5px #aaa;
+  -khtml-box-shadow: 0 0 5px #aaa;
+  -webkit-box-shadow: 0 0 5px #aaa;
+  box-shadow: 0 0 5px #aaa;
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 #tabs-primary-menu li {
     display: inline-block;
@@ -329,11 +343,16 @@ H1.title {
 #zone-footer {
     background-color: #e7e8e9;
     margin-bottom: 5px;
-  -moz-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px 10px 15px 0px #888;
-  -o-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px 10px 15px 0px #888;
-  -khtml-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px 10px 15px 0px #888;
-  -webkit-box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px 10px 15px 0px #888;
-  box-shadow: -8px 0px 5px -5px #888, 8px 0px 5px -5px #888, 0px 10px 15px 0px #888;
+   -moz-box-shadow: 0 0 10px #aaa;
+  -o-box-shadow: 0 0 10px #aaa;
+  -khtml-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #zone-footer A:link, #zone-footer A:visited, #zone-footer ul li.leaf { 
     color: #939496!important;
