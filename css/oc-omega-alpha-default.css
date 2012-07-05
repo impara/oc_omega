@@ -2,381 +2,379 @@
 
 /*HTML elements*/
 
-.zone-menu {
-    border-top: 15px solid white;
-    border-bottom: 15px solid white;
+#zone-menu {
+  margin-top: 15px;
+  margin-bottom: 15px;
 } 
-.zone-content {
-    background:  white;
-}
 .ding-event-weekday {
-    color: #FFFFFF;
-    font-size: 10px;
-    line-height: 0px;
-    height:0px;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 0px;
+  height:0px;
 }
 .ding-event-day {
-    color: #000000;
-    font-size: 18px;
-    line-height: 20px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 20px;
 }
 .ding-event-month {
-    font-size: 9px;
-    line-height: 0px;
-    text-transform: uppercase;
+  font-size: 9px;
+  line-height: 0px;
+  text-transform: uppercase;
 }
 #breadcrumb {
-    padding-left:10px;
+  padding-left:10px;
 }
 P {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 A:link, A:visited, A {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 A:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /*Header*/
 #site-name {
-    font-family: Arial;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: normal;
+  font-family: Arial;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: normal;
 }
 h1.site-name, h2.site-name {
-    font-size: 20px;
+  font-size: 20px;
 }
 .logo-img {
-    float: left;
-    margin-right: 20px;
-    margin-top: 5px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 IMG#logo {
-    float: left;
-    margin-bottom: 5px;
-    margin-right: 15px;
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 15px;
 }
 #slogan {
-    font-family: Arial;
-    font-size: 14px;
-    color: #FFF;
+  font-family: Arial;
+  font-size: 14px;
+  color: #FFF;
 }
 #site-menu {
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 0;
-    padding-right: 0;
-    margin-right: 0;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 0;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 /*Branding*/
 #branding {
-    margin-top: 20px;
-    margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 IMG#logo {
-    margin-right: 15px;
-    margin-bottom: 5px;
-    float: left;
-    width: 120px
+  margin-right: 15px;
+  margin-bottom: 5px;
+  float: left;
+  width: 120px
 }
 #site-header {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 /*Navigation*/
 /*Main menu*/
 #region-menu {
-    margin: -5px 0px -5px 0px;
-    padding: 0px;
+  margin: -5px 0px -5px 0px;
+  padding: 0px;
 }
 
 UL.main-menu {
-    overflow: hidden;
-    padding: 0px;
-    margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
 }
 ul.main-menu li {
-    float: left;
-    width: 90px;              /* Bredden af li elementerne i main-menu. */
-    height: 105px;
-    padding: 0px;
-    margin: 0px 10px 0px;
-    background-size: 35px;    /* Størrelse af billeder i main-menu. */
-    background-position: 50% 75%;
+  float: left;
+  width: 90px;              /* Bredden af li elementerne i main-menu. */
+  height: 105px;
+  padding: 0px;
+  margin: 0px 10px 0px;
+  background-size: 35px;    /* Størrelse af billeder i main-menu. */
+  background-position: 50% 75%;
 }
 ul.main-menu li A {
-    width: 90px;
-    height: 80px;
-    padding: 25px 0px 0px;
-    text-align: center;
-    text-indent: 0px;
+  width: 90px;
+  height: 80px;
+  padding: 25px 0px 0px;
+  text-align: center;
+  text-indent: 0px;
 }
 
 /*Search*/
 .form-item-search-block-form .form-text {
-    width: 60%;
+  width: 60%;
 }
 #search-region {
-    top: 10px;
+  top: 10px;
 }
 #search-region input {
-    width: 69px;
-    font-family: Arial;
-    padding: 3px;
-    font-size: 14px;
-    color: #666;
+  width: 69px;
+  font-family: Arial;
+  padding: 3px;
+  font-size: 14px;
+  color: #666;
 }
 #region-search {
-    width: 60%;
+  width: 60%;
 }
 #region-search .block-title {
-    visibility: hidden;
+  visibility: hidden;
 }
 #region-search h2 {
-    padding: 25px 30px 0px;
-    font-size: 45px;
-    font-weight: normal;
-    color: black;
+  padding: 25px 30px 0px;
+  font-size: 45px;
+  font-weight: normal;
+  color: black;
 }
 #search-block-form {
-    padding-left: 30px;
-    width: 90%;
+  padding-left: 30px;
+  width: 90%;
 }
 #edit-search-block-form--2 {
-    width: 69%;
-    overflow: hidden;
+  width: 69%;
+  overflow: hidden;
 }
 #edit-actions--2 {
-    float: right;
-    width: 30%;
-    margin-top: -36px;
+  float: right;
+  width: 30%;
+  margin-top: -36px;
 }
 #edit-submit--2 {
-    padding: 7px 0px 7px;
+  padding: 7px 0px 7px;
 }
 #zone-user input.form-submit {
-    border-radius: 0px;
-    width: 100%;
-    background: none;
-    background-color: #606163;
-    color: white;
-    border-color: #7bb354;
-    text-shadow: none;
+  border-radius: 0px;
+  width: 100%;
+  background: none;
+  background-color: #606163;
+  color: white;
+  border-color: #7bb354;
+  text-shadow: none;
 }
 #zone-user input.form-submit:hover {
-    background-color: #606163;
-    border-width: 1px 2px 2px;
+  background-color: #606163;
+  border-width: 1px 2px 2px;
 }
 
 /*User First*/
 .block-language{
-    position:relative;
-    float: right;
-    margin-right: 10px;
-    margin-top: 10px;
+  position:relative;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 #region-user-first {
-    padding-left: 10px;
-    border-left: 15px solid white;
-    margin-left:-10px;
-    margin-right:0px;
-    min-height: 170px;
-    width: 35%;
-}
+  padding-left: 10px;
+  border-left: 15px solid #aaa;
+  margin-left:-10px;
+  margin-right:0px;
+  min-height: 170px;
+  width: 35%;
+}  
+ 
 #region-user-first li {
-    list-style: none;
+  list-style: none;
 }
 #user-login-form {
-    width: 80%;
-    padding-left: 10px;
-    padding-top: 20px;
+  width: 80%;
+  padding-left: 10px;
+  padding-top: 20px;
 }
 #user-login-form .login-text {
-    display: block;
-    color: black;
-    font-size: 22px;
-    margin-bottom: 10px;
+  display: block;
+  color: black;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 #edit-name {
-    margin-bottom: 5px;
-    width: 100%;
-    text-indent: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-indent: 5px;
 }
 .form-item-pass {
-    overflow: hidden;
+  overflow: hidden;
 }
 #edit-pass {
-    margin-bottom: 5px;
-    margin-right: 5px;
-    width: 69%;
-    text-indent: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 69%;
+  text-indent: 5px;
 }
 #edit-actions {
-    float: right;
-    margin-top: -29px;
-    width: 30%;
+  float: right;
+  margin-top: -29px;
+  width: 30%;
 }
 #edit-account {
-    padding: 15px 0px 10px;
+  padding: 15px 0px 10px;
 }
 
 /*Secondary menu*/
 UL.secondary-menu {
-    padding: 10px;
-    overflow: hidden;
-    font-size: 11px;
-    float: right;
-    margin-top: 10px;
-    margin-bottom: 0;
+  padding: 10px;
+  overflow: hidden;
+  font-size: 11px;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 UL.secondary-menu LI {
-    float: left;
-    list-style-type: none;
-    list-style-image: none;
-    margin-left: 10px;
+  float: left;
+  list-style-type: none;
+  list-style-image: none;
+  margin-left: 10px;
 }
 UL.secondary-menu LI A {
-    background: #B6EEFF;
-    padding: 6px 10px;
-    color: #1285DA;
+  background: #B6EEFF;
+  padding: 6px 10px;
+  color: #1285DA;
 }
 UL.secondary-menu LI A:hover {
-    background: #1285DA;
-    color: #B6EEFF;
-    text-decoration: none;
+  background: #1285DA;
+  color: #B6EEFF;
+  text-decoration: none;
 }
 #main-content-container {
-    background: #FFF;
-    padding-top: 20px;
+  background: #FFF;
+  padding-top: 20px;
 }
 #region-content .pane-user-profile {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 #tabs-secondary-menu {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 /*Breadcrumb*/
 #internal-nav {
-    background: #FFF;
+  background: #FFF;
 }
 .breadcrumb {
-    font-size: 12px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+  font-size: 12px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /*Content*/
 
 /*Headings*/
 H1, H2, H3, H4, H5, H6 {
-    font-family: Arial;
+  font-family: Arial;
 }
 
 H1.title {
-    font-family: Arial;
-    font-size: 30px;
+  font-family: Arial;
+  font-size: 30px;
 }
 
 /*Preface*/
 #preface-wrapper H2 {
-    font-size: 14px;
-    background: #ABDEFD;
-    color: #FFF;
-    text-transform: uppercase;
-    padding: 2px 10px;
+  font-size: 14px;
+  background: #ABDEFD;
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 2px 10px;
 }
 #preface-wrapper {
-    background: #60C0FA;
-    margin-bottom: 15px;
-    color: #FFF;
-    padding-top: 15px;
-    padding-bottom: 10px;
+  background: #60C0FA;
+  margin-bottom: 15px;
+  color: #FFF;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 /*Main content*/
 #main-content-container {
-    border-top: 10px solid #D8F0FE;
+  border-top: 10px solid #D8F0FE;
 }
 
 /*Postscript*/
 #postscript-wrapper {
-    color: #FFF;
-    background: #5BF;
-    padding-bottom: 10px;
-    padding-top: 15px;
+  color: #FFF;
+  background: #5BF;
+  padding-bottom: 10px;
+  padding-top: 15px;
 }
 #postscript-wrapper H2 {
-    background: #29F;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 2px 10px;
+  background: #29F;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 2px 10px;
 }
 
 /*Node Teasers*/
 .block H2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 .node {
-    border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
 }
 
 /*Node basic elements*/
 .submitted {
-    color: #666;
-    font-size: 11px;
-    margin-bottom: 5px;
+  color: #666;
+  font-size: 11px;
+  margin-bottom: 5px;
 }
 
 /*Tags*/
 .field-name-field-tags DIV.field-item {
-    float: left;
-    margin-right: 10px;
-    background: #EEEEEE url(../images/tags.png) no-repeat 5px;
-    padding: 5px 10px 5px 20px;
-    font-size: 11px;
-    border: 1px solid #CCC;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  float: left;
+  margin-right: 10px;
+  background: #EEEEEE url(../images/tags.png) no-repeat 5px;
+  padding: 5px 10px 5px 20px;
+  font-size: 11px;
+  border: 1px solid #CCC;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .field-name-field-tags DIV.field-item A {
-    color: #000;
+  color: #000;
 }
 
 /*Footer*/
 #footer-wrapper {
-    background: #DDDDDD url(../images/bg-footer.jpg) repeat-x;
-    border-top: 10px solid #E6E6E6;
-    padding-top: 20px;
-    overflow: hidden;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #CCC;
+  background: #DDDDDD url(../images/bg-footer.jpg) repeat-x;
+  border-top: 10px solid #E6E6E6;
+  padding-top: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #CCC;
 }
 #footer-wrapper H2 {
-    font-size: 14px;
-    background: #ACDFFE;
-    text-transform: uppercase;
-    padding-left: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: #FFF;
+  font-size: 14px;
+  background: #ACDFFE;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #FFF;
 }
 .credits, .credits A {
-    font-size: 11px;
-    color: #D8F0FE;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: right;
+  font-size: 11px;
+  color: #D8F0FE;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
 }
 .credits A:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
