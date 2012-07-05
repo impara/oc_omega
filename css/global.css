@@ -58,7 +58,7 @@ ul.main-menu li {
     background-position: 0% 50%;
 }
 ul.main-menu li:hover {
-    background-color: #737577;
+    background-color: /*#737577*/ #99d7db;
 }
 li.home { 
     background-image: url('../images/menu/forsiden.png');
