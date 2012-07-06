@@ -102,7 +102,7 @@ UL.main-menu {
 }
 ul.main-menu li {
     float: left;
-    width: 90px;              /* Bredden af li elementerne i main-menu. */
+    width: 110px;              /* Bredden af li elementerne i main-menu. */
     height: 105px;
     padding: 0px;
     margin: 0px 10px 0px;
@@ -110,11 +110,31 @@ ul.main-menu li {
     background-position: 50% 75%;
 }
 ul.main-menu li A {
-    width: 90px;
+    width: 110px;
     height: 80px;
     padding: 25px 0px 0px;
     text-align: center;
     text-indent: 0px;
+}
+ul.main-menu li.top10 { 
+    display: block;
+    visibility: visible;
+}
+ul.main-menu li.libraries { 
+    display: block;
+    visibility: visible;
+}
+ul.main-menu li.biblioteker { 
+    display: block;
+    visibility: visible;
+}
+ul.main-menu li.netlibrary { 
+    display: block;
+    visibility: visible;
+}
+ul.main-menu li.netbiblioteket { 
+    display: block;
+    visibility: visible;
 }
 
 /*Search*/
@@ -131,7 +151,9 @@ ul.main-menu li A {
     font-size: 14px;
     color: #666;
 }
-#region-search {
+#region-search h2 {
+    display: block;
+    visibility: visible;
 }
 #region-search .block-title {
     visibility: hidden;
@@ -153,7 +175,6 @@ ul.main-menu li A {
 #edit-actions--2 {
     float: right;
     width: 30%;
-    margin-top: -36px;
 }
 #search-block-form input.form-submit {
     padding: 7px 0px 7px;
@@ -276,6 +297,10 @@ ul {
 }
 
 /*Content*/
+.ctools-collapsible-container {
+    display: inline;
+    visibility: visible;
+}
 
 /*Headings*/
 H1, H2, H3, H4, H5, H6 {
@@ -380,4 +405,3 @@ H1.title {
 .credits A:hover {
     text-decoration: underline;
 }
-

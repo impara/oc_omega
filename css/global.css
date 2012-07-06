@@ -17,6 +17,28 @@ body{
 }
 #zone-menu {
     background-color: #69c9cf;
+   -moz-box-shadow: 0 0 10px #aaa;
+  -o-box-shadow: 0 0 10px #aaa;
+  -khtml-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#zone-user {
+   -moz-box-shadow: 0 0 10px #aaa;
+  -o-box-shadow: 0 0 10px #aaa;
+  -khtml-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #region-branding {
 
@@ -49,49 +71,58 @@ UL.main-menu {
     float: left;
     overflow: hidden;
     margin-bottom: 0px;
+    width: 100%;
 }
 ul.main-menu li {
+    float: left;
     margin: 0px 0px 10px 10px;
     text-indent: 35px;
     background-size: 25px;    /* Størrelse af billeder i main-menu. */
     background-repeat: no-repeat;
     background-position: 0% 50%;
+    width: 40%;
 }
 ul.main-menu li:hover {
     background-color: #737577;
 }
-li.home { 
+ul.main-menu li.home { 
     background-image: url('../images/menu/forsiden.png');
 }
-li.forsiden { 
+ul.main-menu li.forsiden { 
     background-image: url('../images/menu/forsiden.png');
+    display: none;
 }
-li.top10 { 
+ul.main-menu li.top10 { 
+    display: none;
     background-image: url('../images/menu/topti.png');
 }
-li.events {  
+ul.main-menu li.events {  
     background-image: url('../images/menu/arrangementer.png');
 }
-li.arrangementer {  
+ul.main-menu li.arrangementer {  
     background-image: url('../images/menu/arrangementer.png');
 }
-li.libraries { 
+ul.main-menu li.libraries { 
     background-image: url('../images/menu/biblioteker.png');
+    display: none;
 }
-li.biblioteker { 
+ul.main-menu li.biblioteker { 
     background-image: url('../images/menu/biblioteker.png');
+    display: none;
 }
-li.openhours { 
+ul.main-menu li.openhours { 
     background-image: url('../images/menu/openhours.png');
 }
-li.åbningstider { 
+ul.main-menu li.åbningstider { 
     background-image: url('../images/menu/openhours.png');
 }
-li.netlibrary { 
+ul.main-menu li.netlibrary { 
     background-image: url('../images/menu/netbib.png');
+    display: none;
 }
-li.netbiblioteket { 
+ul.main-menu li.netbiblioteket { 
     background-image: url('../images/menu/netbib.png');
+    display: none;
 }
 ul.main-menu li A {
     display: block;
@@ -115,7 +146,7 @@ ul.main-menu li.active {
     margin-top: 0px;
 }	
 #region-search {
-
+    
 }
 .form-item, .form-actions {
     position: relative;
@@ -135,6 +166,17 @@ ul.main-menu li.active {
     position: relative;
     text-shadow: 0 1px 0 #FFFFFF;
 }
+.form-item-search-block-form .form-text {
+    width: 100%;
+}
+#region-search h2 {
+    display: none;
+    padding: 0px;
+}
+.form-type-textfield {
+    width: 100%;
+}
+
 .form-actions {
     width: 50px;
 }
@@ -161,7 +203,8 @@ ul.ui-autocomplete {
 .block-language {
     position:relative;
     float: right;
-    /*margin-right: 10px;*/
+    margin-right: 0px;
+    margin-top: 20px;
 }
 .spinner {
     background-image: url(../img/spinner.gif);
@@ -170,6 +213,14 @@ ul.ui-autocomplete {
 }
 #region-user-first {
     background-color: #99d7db;
+}
+#user-login-form {
+    width: 50%;
+    margin-bottom: 5px;
+}
+.region-user-first-inner #edit-name, .region-user-first-inner #edit-pass {
+    width: 100%;
+    margin-bottom: 5px;
 }
 #user-login-form .form-text {
     background-color: #FFFFFF;
@@ -193,9 +244,25 @@ ul.ui-autocomplete {
     background-color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
+   -moz-box-shadow: 0 0 5px #aaa;
+  -o-box-shadow: 0 0 5px #aaa;
+  -khtml-box-shadow: 0 0 5px #aaa;
+  -webkit-box-shadow: 0 0 5px #aaa;
+  box-shadow: 0 0 5px #aaa;
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#block-system-main{
+  margin-top:10px;
 }
 #tabs-primary-menu li {
     display: inline-block;
+}
+.ctools-collapsible-container {
+    display: none;
 }
 .ctools-collapsible-container .ctools-toggle {
     background-image: url("../images/new_arrow.png");
@@ -310,6 +377,16 @@ H1.title {
 #zone-footer {
     background-color: #e7e8e9;
     margin-bottom: 5px;
+   -moz-box-shadow: 0 0 10px #aaa;
+  -o-box-shadow: 0 0 10px #aaa;
+  -khtml-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -khtml-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #zone-footer A:link, #zone-footer A:visited, #zone-footer ul li.leaf { 
     color: #939496!important;
