@@ -6,7 +6,6 @@ body{
     background:white;
 }
 #page {
-    color:white;
     background-color: white;
     font-size: 13px;
     line-height: 17px;
@@ -83,7 +82,7 @@ ul.main-menu li {
     width: 40%;
 }
 ul.main-menu li:hover {
-    background-color: #737577;
+    background-color: #99D7DB;
 }
 ul.main-menu li.home { 
     background-image: url('../images/menu/forsiden.png');
@@ -176,7 +175,6 @@ ul.main-menu li.active {
 .form-type-textfield {
     width: 100%;
 }
-
 .form-actions {
     width: 50px;
 }
@@ -188,8 +186,8 @@ ul.ui-autocomplete {
     width: 250px;
     padding-left: 0px;
 }
-#region-user-first {
-    padding-left: 0px;
+#user-login-form {
+    display: none;
 }
 #block-ding-user-frontend-ding-user-loan-number {
     width: 150px;
@@ -202,7 +200,7 @@ ul.ui-autocomplete {
 }
 .block-language {
     position:relative;
-    float: right;
+    float: left;
     margin-right: 0px;
     margin-top: 20px;
 }
@@ -241,9 +239,10 @@ ul.ui-autocomplete {
 
 }
 #zone-content {
-    background-color: #fff;
+    background-color: #f6f6f2;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-bottom: 5px;
    -moz-box-shadow: 0 0 5px #aaa;
   -o-box-shadow: 0 0 5px #aaa;
   -khtml-box-shadow: 0 0 5px #aaa;
@@ -284,7 +283,7 @@ ul.ui-autocomplete {
     background-color: #66FF66;
 }
 #region-content {
-    background-color: #fff;
+    background-color: #f6f6f2;
 }
 .ting-search-carousel .ting-search-results {
     background-color: #737577;
@@ -316,10 +315,13 @@ ul.ui-autocomplete {
     text-transform:uppercase;
 }
 .pane-title {
-    background: none repeat scroll 0 0 #858789;
+    background: none repeat scroll 0 0 #808084;
     font-size: 12px!important;
     padding: 0 10px;
     text-transform: uppercase;
+}
+#region-content.pane-title {
+    background: #99d7db;
 }
 .ding-event-date {
     text-align:center;
@@ -403,7 +405,10 @@ H1.title {
     font-family: din,sans-serif,verdana;
     font-weight: normal;
 }
-#region-footer-first:after, #region-footer-second:after, #region-footer-third:after, #region-footer-fourth:after {
+#region-footer-first, #region-footer-second, #region-footer-third, #region-footer-third {
+    min-height: 300px;
+}
+#region-footer-first:after, #region-footer-second:after, #region-footer-third:after {
     border-right: 1px solid white;
     min-height: 255px;
     bottom: 5px;
@@ -412,27 +417,12 @@ H1.title {
     position: absolute;
     right: -11px;
     top: 30px;
-} 
-#region-footer-first {
-    background-color: #e7e8e9;
-    min-height: 200px;
-    position: relative;
 }
 #block-block-1 {
     padding-top: 30px;
     position: relative;
     padding-bottom: 10px;
 }
-#region-footer-second {
-    background-color: #e7e8e9;
-}
-
-/*
-.omega-12-threecol-6-3-3{
-  padding: 10px 20px;
-}
-*/
-
 h3 {
     font-size: 14px;
 }

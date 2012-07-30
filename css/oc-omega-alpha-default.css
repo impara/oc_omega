@@ -136,6 +136,9 @@ ul.main-menu li.netbiblioteket {
     display: block;
     visibility: visible;
 }
+ul.main-menu li.login { 
+    display: none;
+}
 
 /*Search*/
 .form-item-search-block-form .form-text {
@@ -172,7 +175,7 @@ ul.main-menu li.netbiblioteket {
     width: 69%;
     overflow: hidden;
 }
-#edit-actions--2 {
+[id^="edit-actions--"] {
     float: right;
     width: 30%;
 }
@@ -195,6 +198,10 @@ ul.main-menu li.netbiblioteket {
 }
 
 /*User First*/
+#user-login-form {
+    display: block;
+    visibility: visible;
+}
 .block-language{
     position:relative;
     float: right;
@@ -230,11 +237,10 @@ ul.main-menu li.netbiblioteket {
 .form-item-pass {
     overflow: hidden;
 }
-#edit-pass {
+.region-user-first-inner #edit-pass {
+    width: 69%;
     margin-bottom: 5px;
     margin-right: 5px;
-    width: 69%;
-    text-indent: 5px;
 }
 #user-login-form .form-submit {
     margin-top: -54px;  
@@ -300,6 +306,12 @@ ul {
 .ctools-collapsible-container {
     display: inline;
     visibility: visible;
+}
+.ctools-collapsible-container h2  {
+    color: white;
+}
+.pane-content {
+    padding-left: 10px;
 }
 
 /*Headings*/
@@ -395,6 +407,10 @@ H1.title {
     padding-bottom: 2px;
     color: #FFF;
 }
+#block-block-2 {
+    position: absolute;
+    bottom: 5px;
+}
 .credits, .credits A {
     font-size: 11px;
     color: #D8F0FE;
@@ -404,4 +420,7 @@ H1.title {
 }
 .credits A:hover {
     text-decoration: underline;
+}
+#region-footer-first, #region-footer-second, #region-footer-third, #region-footer-fourth, {
+    min-height: 400px;
 }
