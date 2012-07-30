@@ -202,6 +202,15 @@ ul.main-menu li.login {
     display: block;
     visibility: visible;
 }
+#block-block-3 {
+    position: relative;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-left: 148px dotted transparent;
+    border-right: 148px dotted transparent;
+    border-bottom: 80px solid white;
+
+}
 .block-language{
     position:relative;
     float: right;
@@ -312,6 +321,11 @@ ul {
 }
 .pane-content {
     padding-left: 10px;
+}
+.container-12 .grid-6 {
+    width: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /*Headings*/

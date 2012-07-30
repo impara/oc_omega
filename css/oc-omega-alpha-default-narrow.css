@@ -1,0 +1,11 @@
+#block-block-3 {
+    position: relative;
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-left: 88px dotted transparent;
+    border-right: 88px dotted transparent;
+    border-bottom: 80px solid white;
+}
