@@ -1,0 +1,434 @@
+/*$Id: libra-style.css,v 1.1 2011/01/13 15:46:30 marianojofre Exp $*/
+
+/*HTML elements*/
+
+.zone-menu {
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+.zone-content {
+    background:  white;
+}
+.ding-event-weekday {
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 0px;
+    height:0px;
+}
+.ding-event-day {
+    color: #000000;
+    font-size: 18px;
+    line-height: 20px;
+}
+.ding-event-month {
+    font-size: 9px;
+    line-height: 0px;
+    text-transform: uppercase;
+}
+#breadcrumb {
+    padding-left:10px;
+}
+P {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+A:link, A:visited, A {
+    color: #000;
+    text-decoration: none;
+}
+A:hover {
+    text-decoration: underline;
+}
+
+/*Header*/
+#site-name {
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: normal;
+}
+h1.site-name, h2.site-name {
+    font-size: 20px;
+}
+.logo-img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+IMG#logo {
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+#slogan {
+    font-family: Arial;
+    font-size: 14px;
+    color: #FFF;
+}
+#site-menu {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/*Branding*/
+#branding {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+IMG#logo {
+    margin-right: 15px;
+    margin-bottom: 5px;
+    float: left;
+    width: 120px
+}
+#site-header {
+    padding-top: 10px;
+}
+
+/*Navigation*/
+/*Main menu*/
+#region-menu {
+    margin: -5px 0px -5px 0px;
+    padding: 0px;
+}
+
+UL.main-menu {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+ul.main-menu li {
+    float: left;
+    width: 110px;              /* Bredden af li elementerne i main-menu. */
+    height: 105px;
+    padding: 0px;
+    margin: 0px 10px 0px;
+    background-size: 35px;    /* Størrelse af billeder i main-menu. */
+    background-position: 50% 75%;
+}
+ul.main-menu li A {
+    width: 110px;
+    height: 80px;
+    padding: 25px 0px 0px;
+    text-align: center;
+    text-indent: 0px;
+}
+ul.main-menu li.top10 { 
+    display: block;
+    visibility: visible;
+}
+ul.main-menu li.libraries { 
+    display: block;
+    visibility: visible;
+}
+ul.main-menu li.biblioteker { 
+    display: block;
+    visibility: visible;
+}
+ul.main-menu li.netlibrary { 
+    display: block;
+    visibility: visible;
+}
+ul.main-menu li.netbiblioteket { 
+    display: block;
+    visibility: visible;
+}
+ul.main-menu li.login { 
+    display: none;
+}
+
+/*Search*/
+.form-item-search-block-form .form-text {
+    width: 60%;
+}
+
+#search-region input {
+    width: 69px;
+    font-family: Arial;
+    padding: 3px;
+    font-size: 14px;
+    color: #666;
+}
+#region-search h2 {
+    display: block;
+    visibility: visible;
+}
+#region-search .block-title {
+    visibility: hidden;
+}
+#region-search h2 {
+    padding: 25px 30px 0px;
+    font-size: 45px;
+    font-weight: normal;
+    color: black;
+}
+#search-block-form {
+    padding-left: 30px;
+    width: 90%;
+}
+#edit-search-block-form--2 {
+    width: 69%;
+    overflow: hidden;
+}
+[id^="edit-actions--"] {
+    float: right;
+    width: 30%;
+}
+#search-block-form input.form-submit {
+    padding: 7px 0px 7px;
+    margin-top: -62px;
+}
+#zone-user .form-submit {
+    border-radius: 0px;
+    width: 100%;
+    background: none;
+    background-color: #606163;
+    color: white;
+    border-color: #7bb354;
+    text-shadow: none;
+}
+#zone-user .form-submit:hover {
+    background-color: #606163;
+    border-width: 1px 2px 1px;
+}
+
+/*User First*/
+#user-login-form {
+    display: block;
+    visibility: visible;
+}
+.block-language{
+    position:relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#region-user-first {
+    padding-left: 10px;
+    border-left: 15px solid #FFFFFF;
+    margin-left:-10px;
+    margin-right:0px;
+    min-height: 170px;
+}
+
+#region-user-first li {
+    list-style: none;
+}
+#triangle{
+  width: 0; 
+	height: 0; 
+	border-left: 148px dotted transparent;
+	border-right: 148px dotted transparent;
+	margin-right: -10px;
+  margin-left: -10px;
+	border-bottom: 80px solid #FFFFFF;
+}
+#user-login-form {
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+#user-login-form .login-text {
+    display: block;
+    color: black;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+[id^="edit-name"] {
+    margin-bottom: 5px;
+    width: 100%;
+    text-indent: 5px;
+}
+.form-item-pass {
+    overflow: hidden;
+}
+ [id^="edit-pass"] {
+    width: 69%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+#user-login-form .form-submit {
+    margin-top: -54px;  
+}
+#edit-actions {
+    float: right;
+    width: 30%;
+}
+#edit-account {
+    padding: 15px 0px 10px;
+}
+
+/*Secondary menu*/
+UL.secondary-menu {
+    padding: 10px;
+    overflow: hidden;
+    font-size: 11px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+UL.secondary-menu LI {
+    float: left;
+    list-style-type: none;
+    list-style-image: none;
+    margin-left: 10px;
+}
+UL.secondary-menu LI A {
+    background: #B6EEFF;
+    padding: 6px 10px;
+    color: #1285DA;
+}
+UL.secondary-menu LI A:hover {
+    background: #1285DA;
+    color: #B6EEFF;
+    text-decoration: none;
+}
+#main-content-container {
+    background: #FFF;
+    padding-top: 20px;
+}
+#region-content .pane-user-profile {
+    padding-top: 15px;
+}
+#tabs-secondary-menu {
+    padding-top: 15px;
+}
+
+/*Breadcrumb*/
+#internal-nav {
+    background: #FFF;
+}
+.breadcrumb {
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ul {
+    list-style: none;
+}
+
+/*Content*/
+.ctools-collapsible-container {
+    display: inline;
+    visibility: visible;
+}
+.ctools-collapsible-container h2  {
+    color: white;
+}
+.pane-content {
+    padding-left: 10px;
+}
+
+/*Headings*/
+H1, H2, H3, H4, H5, H6 {
+    font-family: Arial;
+}
+
+H1.title {
+    font-family: Arial;
+    font-size: 30px;
+}
+
+/*Preface*/
+#preface-wrapper H2 {
+    font-size: 14px;
+    background: #ABDEFD;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 2px 10px;
+}
+#preface-wrapper {
+    background: #60C0FA;
+    margin-bottom: 15px;
+    color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/*Main content*/
+#main-content-container {
+    border-top: 10px solid #D8F0FE;
+}
+
+/*Postscript*/
+#postscript-wrapper {
+    color: #FFF;
+    background: #5BF;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+#postscript-wrapper H2 {
+    background: #29F;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 2px 10px;
+}
+
+/*Node Teasers*/
+.block H2 {
+    font-size: 16px;
+}
+.node {
+    border-bottom: 1px solid #CCC;
+}
+
+/*Node basic elements*/
+.submitted {
+    color: #666;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+/*Tags*/
+.field-name-field-tags DIV.field-item {
+    float: left;
+    margin-right: 10px;
+    background: #EEEEEE url(../images/tags.png) no-repeat 5px;
+    padding: 5px 10px 5px 20px;
+    font-size: 11px;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.field-name-field-tags DIV.field-item A {
+    color: #000;
+}
+
+/*Footer*/
+#footer-wrapper {
+    background: #DDDDDD url(../images/bg-footer.jpg) repeat-x;
+    border-top: 10px solid #E6E6E6;
+    padding-top: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CCC;
+}
+#footer-wrapper H2 {
+    font-size: 14px;
+    background: #ACDFFE;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #FFF;
+}
+#block-block-2 {
+    position: absolute;
+    bottom: 5px;
+}
+.credits, .credits A {
+    font-size: 11px;
+    color: #D8F0FE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.credits A:hover {
+    text-decoration: underline;
+}
+#region-footer-first, #region-footer-second, #region-footer-third, #region-footer-fourth, {
+    min-height: 400px;
+}
