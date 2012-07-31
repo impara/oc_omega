@@ -1,8 +1,8 @@
 #triangle{
   width: 0; 
 	height: 0; 
-	border-left: 120px dotted transparent;
-	border-right: 120px dotted transparent;
+	border-left: 120px solid rgba(255, 255, 255, 0);;
+	border-right: 120px solid rgba(255, 255, 255, 0);;
 	margin-right: -10px;
   margin-left: -10px;
 	border-bottom: 70px solid #FFFFFF;

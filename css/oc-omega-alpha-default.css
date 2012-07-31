@@ -220,8 +220,8 @@ ul.main-menu li.login {
 #triangle{
   width: 0; 
 	height: 0; 
-	border-left: 148px dotted transparent;
-	border-right: 148px dotted transparent;
+	border-left: 148px solid rgba(255, 255, 255, 0);
+	border-right: 148px solid rgba(255, 255, 255, 0);
 	margin-right: -10px;
   margin-left: -10px;
 	border-bottom: 80px solid #FFFFFF;
