@@ -260,6 +260,9 @@ ul.main-menu li.login {
 #edit-account {
     padding: 15px 0px 10px;
 }
+[id^="block-system-user-menu--"] {
+    padding-top: 10px;
+}
 
 /*Secondary menu*/
 UL.secondary-menu {
@@ -320,6 +323,58 @@ ul {
 }
 .pane-content {
     padding-left: 10px;
+}
+.ting-search-amount-block {
+    border-bottom: 1px solid black;
+}
+.search-snippet-info {
+    min-height: 70px;
+}
+.search-result a {
+    color: #1285DA;
+}
+/*.search-result*/ .field-name-ting-title {
+    position: relative;
+    padding-top: 20px;
+    margin-left: 100px;
+    width: 80%;
+}
+/*.search-result*/ .title {
+    position: relative;
+    padding-top: 20px;
+    margin-left: 110px;
+    width: 80%;
+    border-top: 1px solid #DDDDDD;
+}
+/*.search-result*/ .field-name-ting-cover {
+    position: absolute;
+    margin-top: -25px;
+    width: 90px;
+}
+/*.search-result*/ .field-name-ting-collection-types {
+    float: right;
+    width: 20%;
+    margin-top: -25px;
+}
+.search-result h2 {
+    display: none;
+}
+/*.search-result*/ .field-name-ting-author {
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    padding-left: 100px;
+    font-weight: bold;
+}
+/*.search-result*/ .field-name-ting-abstract {
+    position: relative;
+    padding-left: 100px;
+}
+/*.search-result*/ .field-name-ting-subjects {
+    position: relative;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
 
 /*Headings*/
