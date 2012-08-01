@@ -32,10 +32,7 @@ P {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
 }
-A:link, A:visited, A {
-    color: #000;
-    text-decoration: none;
-}
+
 A:hover {
     text-decoration: underline;
 }
@@ -324,57 +321,94 @@ ul {
 .pane-content {
     padding-left: 10px;
 }
-.ting-search-amount-block {
-    border-bottom: 1px solid black;
+.search-result {
+    position: relative;
+}
+.view-mode-collection-list {
+    position: relative;
+}
+.view-mode-full {
+    position: relative;
 }
 .search-snippet-info {
     min-height: 70px;
+    padding-top: 10px;
 }
-.search-result a {
-    color: #1285DA;
-}
-/*.search-result*/ .field-name-ting-title {
+.search-result .field-name-ting-title {
     position: relative;
-    padding-top: 20px;
     margin-left: 100px;
-    width: 80%;
 }
-/*.search-result*/ .title {
+.view-mode-full .field-name-ting-title {
     position: relative;
-    padding-top: 20px;
-    margin-left: 110px;
-    width: 80%;
-    border-top: 1px solid #DDDDDD;
+    margin-left: 140px;
 }
-/*.search-result*/ .field-name-ting-cover {
+.search-result .title {                               /* Overskrifter i Search visning */
+    margin: 10px 0px 0px 112px;
+    padding-top: 10px;
+    border-top: 1px #DDDDDD solid;
+}
+.view-mode-collection-list h2 {                       /* Overskrifter i collection visning */
+    margin: 0 0 15px 100px;
+    padding-top: 10px;
+    border-top: 1px #DDDDDD solid;
+}
+.search-result .field-name-ting-cover {
     position: absolute;
-    margin-top: -25px;
-    width: 90px;
+    top: 10px;
 }
-/*.search-result*/ .field-name-ting-collection-types {
+.view-mode-collection-list .field-name-ting-cover {
+    position: absolute;
+    top: 10px;
+}
+.view-mode-full .field-name-ting-cover {
+    position: absolute;
+    top: 25px;
+}
+.search-result .field-name-ting-collection-types {
     float: right;
-    width: 20%;
+    width: 25%;
     margin-top: -25px;
+}
+.view-mode-collection-list .field-name-ting-type {
+    float: right;
+    width: 25%;
+    margin-top: 10px;
+}
+.view-mode-collection-list [id^="edit-submit"] {
+    float: right;
+    margin: 0 0 15px 0px;
+}
+.view-mode-collection-list [id^="edit-actions"] {
+    
 }
 .search-result h2 {
     display: none;
 }
-/*.search-result*/ .field-name-ting-author {
+.search-result .field-name-ting-author {
     position: relative;
     margin-top: -10px;
     margin-bottom: 5px;
     padding-left: 100px;
     font-weight: bold;
 }
-/*.search-result*/ .field-name-ting-abstract {
+.view-mode-full .field-name-ting-author {
+    margin-left: 140px;
+}
+.search-result .field-name-ting-abstract {
     position: relative;
     padding-left: 100px;
 }
-/*.search-result*/ .field-name-ting-subjects {
+.view-mode-full .field-name-ting-abstract {
+    margin-left: 140px;
+}
+.search-result .field-name-ting-subjects {
     position: relative;
     padding-left: 100px;
     padding-top: 5px;
     padding-bottom: 15px;
+}
+.view-mode-full .field-name-ting-subjects {
+    margin-left: 140px;
 }
 
 /*Headings*/
