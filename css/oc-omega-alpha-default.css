@@ -219,7 +219,7 @@ ul.main-menu li.login {
 }
 #triangle{
   width: 0; 
-	min-height: 30px; 
+	min-height: 60px; 
 	border-left: 148px solid rgba(255, 255, 255, 0);
 	border-right: 148px solid rgba(255, 255, 255, 0);
 	margin-right: -10px;
