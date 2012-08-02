@@ -2,25 +2,28 @@
 
 /**
  * @file
- * This file is empty by default because the base theme chain (Alpha & Omega) provides
- * all the basic functionality. However, in case you wish to customize the output that Drupal
+ * This file is empty by default because the base theme chain (Alpha & Omega)
+ * provides all the basic functionality. However, in case you wish to customize the output that Drupal
  * generates through Alpha & Omega this file is a good place to do so.
- * 
+ *
  * Alpha comes with a neat solution for keeping this file as clean as possible while the code
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
-function block_render($module, $block_id) {  
-$block = block_load($module, $block_id); 
-$block_content = _block_render_blocks(array($block));  
-$build = _block_get_renderable_array($block_content);  
-$block_rendered = drupal_render($build);  
-print $block_rendered;
+
+/**
+ * adds ability to call blocks.
+ */
+function block_render($module, $block_id) {
+  $block = block_load($module, $block_id);
+  $block_content = _block_render_blocks(array($block));
+  $build = _block_get_renderable_array($block_content);
+  $block_rendered = drupal_render($build);
+  print $block_rendered;
 }
 
 /**
  * adds classes on li tags based on titles (for menu icons).
- * 
  */
 function oc_omega_links($variables) {
   $links = $variables['links'];
@@ -70,12 +73,12 @@ function oc_omega_links($variables) {
           && (empty($link['language']) || $link['language']->language == $language_url->language)) {
         $class[] = 'active';
       }
-      
+
       if (isset($attributes['id']) && $attributes['id'] == 'main-menu') {
-  $custom_class = str_replace(' ','-',strtolower(check_plain($link['title'])));
-  $class[] = $custom_class;
-  //$link['attributes']['id'] = array($custom_class);
-}
+        $custom_class = str_replace(' ', '-', strtolower(check_plain($link['title'])));
+        $class[] = $custom_class;
+        // $link['attributes']['id'] = array($custom_class);
+      }
       $output .= '<li' . drupal_attributes(array('class' => $class)) . '>';
 
       if (isset($link['href'])) {
@@ -83,7 +86,7 @@ function oc_omega_links($variables) {
         $output .= l($link['title'], $link['href'], $link);
       }
       elseif (!empty($link['title'])) {
-        // Some links are actually not links, but we wrap these in <span> for adding title and class attributes.
+        // We wrap these in <span> for adding title and class attributes.
         if (empty($link['html'])) {
           $link['title'] = check_plain($link['title']);
         }
@@ -104,37 +107,40 @@ function oc_omega_links($variables) {
   return $output;
 }
 
-
-
+/**
+ * alters forms.
+ */
 function oc_omega_form_alter(&$form, &$form_state, $form_id) {
-	switch ($form_id) {
-   case 'search_block_form':
-     
-	  $form['search_block_form']['#attributes']['placeholder'] = t('Search');
+  switch ($form_id) {
+    case 'search_block_form':
+      $form['search_block_form']['#attributes']['placeholder'] = t('Search');
       $form['actions']['#suffix'] = '<div class="clearfix"></div>';
-	  break;
+      break;
+
     case 'user_login_block':
-      $form['name']['#prefix'] = '<span class="login-text">'.t('Log in:').'</span>';
+      $form['name']['#prefix'] = '<span class="login-text">' . t('Log in:') . '</span>';
       unset($form['name']['#title']);
       $form['name']['#attributes']['placeholder'] = t('cpr. or card no.');
       unset($form['pass']['#title']);
       $form['links']['#markup'] = "";
       break;
-	   case 'comment_node_ding_news_form':
+
+    case 'comment_node_ding_news_form':
       $form['actions']['submit']['#prefix'] = '<div>';
       $form['actions']['submit']['#suffix'] = '</div>';
       $form['actions']['preview']['#prefix'] = '<div>';
       $form['actions']['preview']['#suffix'] = '</div>';
       $form['subject']['#type'] = 'hidden';
       break;
-	}
-
+  }
 }
 
-
+/**
+ * preprocess_search_result.
+ */
 function oc_omega_preprocess_search_result(&$variables) {
-	unset($variables['sidebar_first'],$variables['sidebar_second']); 
-  if ($variables['module'] == 'node') {	 
+  unset($variables['sidebar_first'], $variables['sidebar_second']);
+  if ($variables['module'] == 'node') {
     $n = node_load($variables['result']['node']->nid);
     $view = node_view($n, 'teaser');
     $variables['search_result_body'] = isset($view['field_ding_body']) ? $view['field_ding_body'] : FALSE;
@@ -144,6 +150,9 @@ function oc_omega_preprocess_search_result(&$variables) {
   }
 }
 
+/**
+ * preprocess_ting_object
+ */
 function oc_omega_preprocess_ting_object(&$variables) {
   $places = array(
     'ting_cover' => 'left',
