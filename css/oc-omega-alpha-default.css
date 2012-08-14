@@ -321,6 +321,9 @@ ul {
 .pane-content {
     padding-left: 10px;
 }
+.search-results li {
+    margin-left: 100px;
+}
 
 /*Headings*/
 H1, H2, H3, H4, H5, H6 {

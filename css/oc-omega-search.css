@@ -1,110 +1,129 @@
+/*********************************************** SEARCH VIEW **/
+
 .search-result {
-    position: relative;
-}
-.view-mode-collection-list {
-    position: relative;
-    min-height: 130px;
-}
-.view-mode-full {
     position: relative;
 }
 .search-snippet-info {
     min-height: 70px;
-    padding-top: 10px;
 }
-.search-result .field-name-ting-title {
-    position: relative;
-    margin-left: 100px;
-}
-.view-mode-full .field-name-ting-title {
-    position: relative;
-    margin-left: 150px;
-    padding-top: 20px;
-    border-top: 1px #DDDDDD solid;
-}
-.search-result .title {                               /* Overskrifter i Search visning */
-    margin: 10px 0px 0px 112px;
+.search-result .title {                               
+    margin: 10px 0px 0px 12px;
     padding-top: 20px;
     border-top: 1px #DDDDDD solid;
 }
 .search-result .field-name-ting-cover {
     position: absolute;
     top: 20px;
-}
-.view-mode-full .field-name-ting-cover {
-    position: absolute;
-    top: 20px;
+    left: -100px;
 }
 .search-result .field-name-ting-collection-types {
-    float: right;
-    width: 25%;
-    margin-top: -25px;
+    margin: 0 0 0 -20px;
 }
-.view-mode-full .field-name-ting-type {
-    float: right;
-    width: 25%;
-    margin-top: 20px;
-}
-.view-mode-collection-list [id^="edit-submit"] {
-    float: right;
-    margin: 0 0 15px 0px;
-}
-.view-mode-full [id^="edit-submit"] {
-    float: right;
-    margin: 0 0 15px 0px;
+.search-result .field-name-ting-collection-types li {
+    float: left;
+    padding-bottom: 10px;
 }
 .search-result h2 {
     display: none;
 }
 .search-result .field-name-ting-author {
-    position: relative;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    padding-left: 100px;
+    margin: 0px 0px 5px 0px;
+    padding-top: 10px;
     font-weight: bold;
+    position: relative;
+    float: left;
+    clear: left;
+}
+.search-result .field-name-ting-abstract {
+    padding-left: 0px;
+    position: relative;
+    float: left;
+    clear: left;
+}
+.search-result .field-name-ting-subjects {
+    position: relative;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    float: left;
+    clear: left;
+}
+.search-result .field-name-ting-series {
+    position: relative;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    float: left;
+    clear: left;
+}
+/************************************************* COLLECTION VIEW **/
+
+.view-mode-collection-list {
+    position: relative;
+    min-height: 130px;
+}
+.view-mode-full .view-mode-collection-list .field-name-ting-cover {
+    position: absolute;
+    top: 20px;
+    margin-left: -100px;
+}
+.view-mode-collection-list [id^="edit-submit"] {
+    margin: 0 0 15px 0px;
+    position: relative;
 }
 .view-mode-collection-list .field-name-ting-author {
     position: relative;
-    margin-left: 140px;
     padding-bottom: 10px;
 }
-.view-mode-full .field-name-ting-author {
+
+/************************************************* OBJECT VIEW **/
+.view-mode-full {
+    position: relative;
     margin-left: 150px;
+}
+.view-mode-full li {
+    margin-left: 100px;
+}
+.view-mode-full .field-name-ting-title {
+    position: relative;
+    padding-top: 20px;
+    border-top: 1px #DDDDDD solid;  
+}
+.view-mode-full .field-name-ting-cover {
+    position: absolute;
+    top: 20px;
+    margin-left: -150px;
+}
+.view-mode-full .field-name-ting-type {
+    float: left;
+}
+.view-mode-full [id^="edit-submit"] {
+    margin: 0 0 15px 0px;
+}
+.view-mode-full .field-name-ting-author {
     padding-bottom: 10px;
 }
 .view-mode-teaser .field-name-ting-series {
     position: relative;
-    margin-left: 100px;
     padding-bottom: 15px;
-}
-.search-result .field-name-ting-abstract {
-    position: relative;
-    padding-left: 100px;
 }
 .view-mode-full .field-name-ting-abstract {
-    margin-left: 150px;
     padding-bottom: 5px;
 }
-.search-result .field-name-ting-subjects {
-    position: relative;
-    padding-left: 100px;
-    padding-top: 5px;
-    padding-bottom: 15px;
-}
 .view-mode-full .field-name-ting-subjects {
-    margin-left: 150px;
     padding: 5px 0px 10px 0px;
 }
 .view-mode-full .field-group-div {
     position: relative;
-    margin-left: 150px;
     padding-top: 50px;
+}
+.view-mode-full .field-name-ding-entity-buttons a {
+    padding: 0 0 0 0px;
+    padding-top: 0px;
+}
+.ting-relation li {
+    margin-left: 0px;
 }
 [class*="ting-relation-dbcaddi"] {
     position: relative;
-    margin-left: 150px;
 }
-.view-mode-full .field-name-ding-entity-buttons a {
-    padding: 0 0 0 150px;
-    padding-top: 0px;
-} 

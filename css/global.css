@@ -177,9 +177,10 @@ ul.main-menu li.active {
 .form-actions {
     width: 50px;
 }
+
 ul.ui-autocomplete { 
     z-index:100 !important;
-    max-width:435px;
+    max-width: 7010px;;
 }
 #user-login-form {
     width: 250px;
@@ -250,7 +251,6 @@ ul.ui-autocomplete {
     -khtml-box-shadow: 0 0 5px #aaa;
     -webkit-box-shadow: 0 0 5px #aaa;
     box-shadow: 0 0 5px #aaa;
-
 }
 #block-system-main{
   margin-top:10px;
@@ -282,6 +282,12 @@ ul.ui-autocomplete {
 }
 #region-content {
     background-color: #f6f6f2;
+}
+.search-results li {
+    margin-left: 5px;
+}
+.field-name-ting-cover {
+    visibility: hidden;
 }
 .ting-search-carousel .ting-search-results {
     background-color: #737577;
